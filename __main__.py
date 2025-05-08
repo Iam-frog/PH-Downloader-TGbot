@@ -12,11 +12,11 @@ from pornhub_api import PornhubApi
 
 
 # Replace with your actual bot token
-TOKEN = "YOUR_BOT_TOKEN_HERE"
+TOKEN = "8085539686:AAHNaY60ZXPqLbmX_0csmyKKCv9xKJHAh_Q"
 bot = telebot.TeleBot(TOKEN)
 
 # Replace with the actual path to your FFMPEG executable
-FFMPEG_PATH = "YOUR_FFMPEG_PATH_HERE"
+FFMPEG_PATH = "/data/data/com.termux/files/usr/bin/ffmpeg"
 
 CHANNELS = [
     # Replace with actual channel ID, name, and link
@@ -30,7 +30,7 @@ genders = ["♂️ Male", "♀️ Female"]
 sexual_orientations = ["💑 Straight", "🏳️‍🌈 Gay", "💜 Bisexual"]
 
 # Replace with actual Admins ID
-ADMINS = [123456789, 987654321]
+ADMINS = [5654944622, 987654321]
 
 video_requests = {}
 last_search = {}
